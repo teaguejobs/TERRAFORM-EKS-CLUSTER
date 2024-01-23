@@ -29,7 +29,9 @@ OBJECTIVES
 
 `terraform apply`
 
-NOTE: Make sure to use thesame statefile for the previous project https://github.com/teaguejobs/Terraform-And-Kubernetes.Else you will need to provision a new cluster from ground up.
+NOTE: Make sure to use thesame statefile for the previous project https://github.com/teaguejobs/Terraform-And-Kubernetes.
+
+Else you will need to provision a new cluster from ground up.
 
 4. Download the resource_nginx.tf file
 
@@ -57,6 +59,10 @@ NOTE: Make sure to use thesame statefile for the previous project https://github
 
 `terraform apply`
 
+`terraform output`
+
+
 10. Verify load balancer deployment is running
+
 
 11. Scale the deployment from 2-4 on our resource_nginx.tf file
